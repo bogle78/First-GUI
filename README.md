@@ -8,7 +8,8 @@ Installation
 
 Usage
 
-  If you would like to run this program, on your own computer, you have two options. The first, and easiest option, is to open the project folder, open the folder named dist, and double click the executable jar file named LAB5D. Every time the jar file is opened there will be thirty newly generated shapes in a new window. Secondly, the other option consists of downloading the integrated development environment NetBeans. In order for NetBeans to work properly, you must first visit oracles website and download Java. The first link is to download Java and the second is to download NetBeans. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+  If you would like to run this program, on your own computer, you have two options. The first, and easiest option, is to open the project folder, open the folder named dist, and double click the executable jar file named LAB5D. Every time the jar file is opened there will be thirty newly generated shapes in a new window. Secondly, the other option consists of downloading the integrated development environment NetBeans. In order for NetBeans to work properly, you must first visit oracles website and download Java. The first link is to download Java and the second is to download NetBeans. 
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 https://netbeans.org/downloads/
 
   Once you have Java and NetBeans downloaded, you will open NetBeans. Next, you will find and open the project folder that you downloaded in Installation. Lastly, you will click the clean and build project icon at the top left of the screen and the green arrow icon to the right of it to run the program.
