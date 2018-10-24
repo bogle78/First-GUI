@@ -22,26 +22,26 @@ https://netbeans.org/downloads/
 
   My project consists of seven java classes that all work together to complete the program. This section will discuss each of these classes individually to give a detailed description of how my program works. These classes are named: Lab5D.java, Main.java, Point.java, Shape.java, Circle.java, Rectangle.java, and Triangle.java. The Circle, Rectangle, and Triangle class are all subclasses of the Shape class. This means they contain all the properties and characteristics of the Shape class and others that make them unique. 
 
-	**Point.java**
+	Point.java
   
   The point class is designed so that the user can effectively pinpoint the center of a shape. Point takes three integer arguments x, y, and z. X corresponds to the x-axis on a graph, y corresponds to the y-axis on a graph, and z corresponds to the z-axis. The z-axis is an added axis to represent depth. Inside the constructor of the point class, if statements are used to ensure that x and y are greater than or equal to zero and less than or equal to five hundred. The point class contains getter methods for x, y, and z to work with these instance fields. The object, point, is implemented in the shape class in order for all subclasses, or shapes, to utilize the point object.
 
-	**Shape.java**
+	Shape.java
   
   The Shape class is an abstract class that implements the Point object to find the center of each shape. The shape class also allows each shape subclass to use the area() method which is a function that finds each shape’s area. First, Shape.java initializes an instance field named center which is of type Point. The constructor takes in three integer arguments x, y, and z and inserts these values into the variable center. Lastly, Shape.java implements getter methods for each of these arguments.
 
-	**Circle.java**
+	Circle.java
   
   The Circle class is a subclass of Shape.java. The Circle constructor accepts three integer arguments x, y, and z. It also accepts one double named newRadius. The constructor also sets a private instance field radius equal to newRadius. Circle contains several methods. Among these are area, circumference, and toString. Area calculates the area of the circle, circumference calculates the circumference, and toString prints a brief representation of a circle with its corresponding center. Lastly, the Circle class contains a getter and setter method for radius which ensures that the radius is greater than or equal to zero and returns it for other use in the program.
 
-	**Rectangle.java**
+	Rectangle.java
   
   The Rectangle class is also a subclass of Shape.java. First, Rectangle.java initializes two private instance fields named width and height. Next, the Rectangle constructor accepts three integer arguments: x, y, and z, and two double arguments: width and height. the arguments x, y, and z are inserted into the super class which allows them to be read as a shape. Then, getters and setters are implemented for both width and height which get the width and height arguments from the constructor and set the instance fields equal to those values. An area method is added which calculates the area of the rectangle. Lastly, a toString method is created which prints a brief representation of the rectangle, its area, and its center.
 
-	**Lab5D.java**
+	Lab5D.java
   
   Lab5D.java is where all the graphics and numbers are generated. First, a for loop is created which randomly generates and adds thirty shapes to the array list called shapes. Among these thirty shapes are also randomly generated arguments. Next, a for loop is created which iterates through each shape and decides whether it’s a circle, rectangle, or triangle. If the shape is a circle, the program draws a yellow circle by using the fillOval method. This method positions the circle and its printed center correctly. If the shape is a rectangle, the program draws a firebrick red rectangle using the fillRect method. This method positions the rectangle and its printed center correctly. If the Shape is a triangle, the program draws a green triangle by using the fillPolygon method. This method is much more attention consuming than the others because there is not a method for printing a triangle. In this method, lines are drawn from three points which each connect and create a triangle. Lastly, Lab5D.java prints the area of each shape in an orange font color. 
 
-	**Main.java**
+	Main.java
   
   Main.java is the starting point of the program. This class opens up a 500 by 500 pixel Gui window and implements Lab5D.java as the windows contents.
