@@ -16,6 +16,8 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 https://netbeans.org/downloads/
 
   Once you have Java and NetBeans downloaded, you will open NetBeans. Next, you will find and open the project folder that you downloaded in Installation. Lastly, you will click the clean and build project icon at the top left of the screen and the green arrow icon to the right of it to run the program.
+  
+  ![image](https://user-images.githubusercontent.com/44220245/47520853-fee4e180-d856-11e8-9eb2-45e0e03bf872.png)
 
 ### **Background**
 
