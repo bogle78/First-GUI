@@ -2,11 +2,11 @@
 
    Hello, welcome to my first ever GUI project that I completed in Computer Programming II at Jacksonville State University. This program was written in the programming language Java and was compiled using an integrated development environment called NetBeans. This program is meant to give the user a brief introduction into creating GUI programs. As written, the program will open up a small 500 by 500 pixels window and print thirty random shapes of varying sizes. The programs random shapes include a circle, rectangle, and triangle. Each of these shapes will have its area printed at its center.
 
-**Installation**
+### **Installation**
 
   In order to install this project on your own computer simply right click on the link and save the file to a designated place on your computer.
 
-**Usage**
+### **Usage**
 
   If you would like to run this program, on your own computer, you have two options. The first, and easiest option, is to open the project folder, open the folder named dist, and double click the executable jar file named LAB5D. Every time the jar file is opened there will be thirty newly generated shapes in a new window. Secondly, the other option consists of downloading the integrated development environment NetBeans. In order for NetBeans to work properly, you must first visit oracles website and download Java. The first link is to download Java and the second is to download NetBeans. 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -14,11 +14,11 @@ https://netbeans.org/downloads/
 
   Once you have Java and NetBeans downloaded, you will open NetBeans. Next, you will find and open the project folder that you downloaded in Installation. Lastly, you will click the clean and build project icon at the top left of the screen and the green arrow icon to the right of it to run the program.
 
-**Background**
+### **Background**
 
   This section simply gives a brief understanding of how java programs are written and created. If you already have a decent understanding, feel free to move on to the next section named Design. First Java programs are created by using java classes. These classes can be compared to multiple sheets of paper for an assignment. Every Java program requires and begins with a Main class. This main class is the executable starting point of your program. Other classes are made to make the program and main class concise and easy to read and understand. Whenever all of your classes are completed, each of these classes work together to make your program run successfully. 
 
-**Design**
+### **Design**
 
   My project consists of seven java classes that all work together to complete the program. This section will discuss each of these classes individually to give a detailed description of how my program works. These classes are named: Lab5D.java, Main.java, Point.java, Shape.java, Circle.java, Rectangle.java, and Triangle.java. The Circle, Rectangle, and Triangle class are all subclasses of the Shape class. This means they contain all the properties and characteristics of the Shape class and others that make them unique. 
 
