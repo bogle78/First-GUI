@@ -36,7 +36,7 @@ https://netbeans.org/downloads/
 
 	Shape.java
   
-  The Shape class is an abstract class that implements the Point object to find the center of each shape. The shape class also allows each shape subclass to use the area() method which is a function that finds each shape’s area. First, Shape.java initializes an instance field named center, which is of type Point. The constructor takes in three integer arguments x, y, and z and inserts these values into the variable center. Lastly, Shape.java implements getter methods for each of these arguments.
+  The Shape class is an abstract class that implements the Point object to find the center of each shape. The shape class also allows each shape subclass to use the area method which is a function that finds each shape’s area. First, Shape.java initializes an instance field named center, which is of type Point. The constructor takes in three integer arguments x, y, and z and inserts these values into the variable center. Lastly, Shape.java implements getter methods for each of these arguments.
 
 	Circle.java
   
@@ -45,6 +45,10 @@ https://netbeans.org/downloads/
 	Rectangle.java
   
   The Rectangle class is also a subclass of Shape.java. First, Rectangle.java initializes two private instance fields named width and height. Next, the Rectangle constructor accepts three integer arguments: x, y, and z, and two double arguments: width and height. the arguments x, y, and z are inserted into the super class which allows them to be read as a shape. Then, getters and setters are implemented for both width and height which get the width and height arguments from the constructor and set the instance fields equal to those values. An area method is added which calculates the area of the rectangle. Lastly, a toString method is created which prints a brief representation of the rectangle, its area, and its center.
+  
+  	Triangle.java
+
+The Triangle class is another subclass of shape.java. First, Triangle.java initializes two private instance fields named base and height. Next, the Triangle constructor accepts five arguments. The first three integer arguments are x, y, and z. The next two are base and height, which are doubles. The area and toString methods are implemented next. Lastly, getter and setter methods are created for the instance fields.
 
 	Lab5D.java
   
