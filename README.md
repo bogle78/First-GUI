@@ -4,7 +4,7 @@
 
 ### **Installation**
 
-  In order to install this project on your own computer simply right click on the link named Lab5D and save the folder to a designated place on your computer.
+  In order to install this project on your own computer simply click on the link named Lab5D.zip, click download, and save the folder to a designated place on your computer.
 
 ### **Usage**
 
