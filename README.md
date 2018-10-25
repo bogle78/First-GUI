@@ -22,7 +22,7 @@ https://netbeans.org/downloads/
 
   My project consists of seven java classes that all work together to complete the program. This section will discuss each of these classes individually to give a detailed description of how my program works. These classes are named: Lab5D.java, Main.java, Point.java, Shape.java, Circle.java, Rectangle.java, and Triangle.java. The Circle, Rectangle, and Triangle class are all subclasses of the Shape class. This means they contain all the properties and characteristics of the Shape class and others that make them unique. 
 
-	Point.java
+	*Point.java*
   
   The point class is designed so that the user can effectively pinpoint the center of a shape. Point takes three integer arguments x, y, and z. X corresponds to the x-axis on a graph, y corresponds to the y-axis on a graph, and z corresponds to the z-axis. The z-axis is an added axis to represent depth. Inside the constructor of the point class, if statements are used to ensure that x and y are greater than or equal to zero and less than or equal to five hundred. The point class contains getter methods for x, y, and z to work with these instance fields. The object, point, is implemented in the shape class in order for all subclasses, or shapes, to utilize the point object.
 
