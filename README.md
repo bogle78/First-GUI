@@ -15,13 +15,13 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 https://netbeans.org/downloads/
 
-  Once you have Java and NetBeans downloaded, you will open NetBeans. Next, you will find and open the project folder that you downloaded in Installation. Lastly, you will click the clean and build project icon at the top left of the screen and the green play button icon to the right of it, to run the program.
+  Once you have Java and NetBeans downloaded, you will open NetBeans. Next, you will find, and open, the project folder that you downloaded in Installation. Lastly, you will click the clean and build project icon at the top left of the screen and the green play button icon to the right of it, to run the program.
   
   ![image](https://user-images.githubusercontent.com/44220245/47520853-fee4e180-d856-11e8-9eb2-45e0e03bf872.png)
 
 ### **Background**
 
-  This section simply gives a brief understanding of how java programs are written and created. If you already have a decent understanding, feel free to move on to the next section named Design. First Java programs are created by using java classes. These classes can be compared to multiple sheets of paper for an assignment. Every Java program requires and begins with a main class. This main class is the executable starting point of your program. Other classes are made to make the program and main class concise and easy to read and understand. Whenever all of your classes are completed, each of these classes work together to make your program run successfully. 
+  This section simply gives a brief understanding of how java programs are written and created. If you already have a decent understanding, feel free to move on to the next section named Design. First, Java programs are created by using java classes. These classes can be compared to multiple sheets of paper for an assignment. Every Java program requires and begins with a main class. This main class is the executable starting point of your program. Other classes are made to make the program and main class concise and easy to read and understand. Whenever all of your classes are completed, each of these classes work together to make your program run successfully. 
 
 ### **Design**
 
