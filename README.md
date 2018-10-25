@@ -1,6 +1,8 @@
 # **My First Gui**
 
    Hello, welcome to my first ever GUI project that I completed in Computer Programming II at Jacksonville State University. This program was written in the programming language Java and was compiled using an integrated development environment called NetBeans. This program is meant to give the user a brief introduction into creating GUI programs. As written, the program will open up a small 500 by 500 pixels window and print thirty random shapes of varying sizes. The programs random shapes include a circle, rectangle, and triangle. Each of these shapes will have its area printed at its center.
+   
+   ![lab5d](https://user-images.githubusercontent.com/44220245/47520596-3737f000-d856-11e8-8aba-436b34602055.PNG)
 
 ### **Installation**
 
