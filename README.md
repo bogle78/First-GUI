@@ -24,6 +24,9 @@ https://netbeans.org/downloads/
 ### **Design**
 
   My project consists of seven java classes that all work together to complete the program. This section will discuss each of these classes individually to give a detailed description of how my program works. These classes are named: Lab5D.java, Main.java, Point.java, Shape.java, Circle.java, Rectangle.java, and Triangle.java. The Circle, Rectangle, and Triangle class are all subclasses of the Shape class. This means they contain all the properties and characteristics of the Shape class and others that make them unique. 
+  
+  ![classes](https://user-images.githubusercontent.com/44220245/47520772-b75e5580-d856-11e8-9740-e8b5de3ad4ab.PNG)
+
 
 	Point.java
   
